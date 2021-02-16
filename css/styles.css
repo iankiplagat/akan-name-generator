@@ -3,13 +3,17 @@
 .body {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
+  margin: 0;
 }
 
 .background {
-  background: url(../images/1.jpg) bottom center / cover no-repeat;
+  background: url(../images/4.jpg) bottom center / cover no-repeat;
   min-height: 750px;
+  width: 100%;
 }
 
 .container {
-    text-align: center;
+  text-align: center;
+  margin: 0;
+  background width: 100%;
 }

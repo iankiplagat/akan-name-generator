@@ -19,18 +19,35 @@
     <title>Akhan naming website</title>
   </head>
   <body>
-      <div class="container">
-          <h1>Akan Name Generator</h1>
-          
-        <div class="inputForm">
-            <form action="#">
-              <input type="date" name="userBirthday" id="userBirthdayID" />
-              <button id="birthdaySubmitBtn">Submit</button>
-            </form>
-          </div>
-
+    <div class="container">
+      <div class="background"></div>
+      <h1>Akan Name Generator</h1>
+      <p>
+        Hello there! This is a web application that takes your birthday details
+        and calculates the day of the week you were born and then depending on
+        your gender, outputs your Akan Name.
+        <a
+          class="research"
+          href="https://en.wikipedia.org/wiki/Akan_names"
+          target="_blank"
+          >Akan names</a
+        >
+        are derived from Ghanian culture. Frequently in Ghana, children are
+        given their first name as a 'day name' which corresponds to the day in
+        the week they were born.
+      </p>
+      <p>
+        To find out what your Akan name is, proceed to filling the form below
+        and clicking the generate name button.
+      </p>
+      <div class="inputForm">
+        <form action="#">
+          <input type="date" name="userBirthday" id="userBirthdayID" />
+          <button id="birthdaySubmitBtn">Submit</button>
+        </form>
       </div>
-    
+    </div>
+
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"
       integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi"
@@ -46,7 +63,7 @@
         .getElementById("birthdaySubmitBtn").addEventListener("click", function(e) {
             e.preventDefault()
             console.log("Element found")
-            var 
+            var
         });
     </script>
   </body>
