@@ -37,3 +37,9 @@
   padding-bottom: 50px;
   font: poppins;
 }
+
+.column {
+  flex-direction: column;
+  -ms-flex-align: center;
+  padding-bottom: 10px;
+}
