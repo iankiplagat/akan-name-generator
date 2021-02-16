@@ -16,6 +16,10 @@
 
 .container {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(187, 111, 111);
+  border: 1px solid black;
 }
 
 .flex-container {
