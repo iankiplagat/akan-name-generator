@@ -4,16 +4,13 @@
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   margin: 0;
+  padding: 0;
 }
 
 .background {
   background: url(../images/4.jpg) bottom center / cover no-repeat;
   min-height: 750px;
   width: 100%;
+  margin: 0;
 }
 
-.container {
-  text-align: center;
-  margin: 0;
-  background width: 100%;
-}
