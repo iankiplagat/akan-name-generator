@@ -18,4 +18,10 @@ function akan() {
   if (birthDay <= 0 || birthDay > 31 || birthMonth <= 0 || birthMonth > 12) {
     alert("You entered an invalid date");
   }
+  var weekDays;
+  var maleNames;
+  var femaleNames;
+  weekDays=["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+  maleNames=["Kwasi", "Kwadwo", "Kwabena", "Kwaku","Yaw", "Kofi", "Kwame"];
+  femaleNames=["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 }
