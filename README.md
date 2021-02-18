@@ -34,8 +34,8 @@ No known bugs
 
 Please feel free to contact me incase you run into any issues or have questions, ideas or concerns. You can contact me or make a contribution to the code. Please find my contact information listed below:
 
-- . Email: ianjkiplagat@gmail.com
-- . Telephone: +254742579020
+- Email: ianjkiplagat@gmail.com
+- Telephone: +254742579020
 
 ### License
 
