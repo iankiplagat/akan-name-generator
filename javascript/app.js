@@ -1,7 +1,7 @@
 function akan() {
-  var birthDate = document.getElementById("date").nodeValue;
-  var gender = document.getElementById("gender").nodeValue;
-  toString: birthDate;
+  var birthDate = document.getElementById("date").value;
+  var gender = document.getElementById("gender").value;
+  console.log(birthDate);
   if (!birthDate) {
     alert("You entered an invalid date");
   }
@@ -21,7 +21,53 @@ function akan() {
   var weekDays;
   var maleNames;
   var femaleNames;
-  weekDays=["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-  maleNames=["Kwasi", "Kwadwo", "Kwabena", "Kwaku","Yaw", "Kofi", "Kwame"];
-  femaleNames=["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
+  weekDays = [
+    "Sunday",
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+  ];
+  maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
+  femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
+  var dayOfTheWeek;
+  var day;
+  dayOfTheWeek =
+    (centuryYear / 4 -
+      2 * centuryYear -
+      1 +
+      (5 * birthYear) / 4 +
+      (26 * (birthMonth + 1)) / 10 +
+      birthDay) %
+    7;
+  if (dayOfTheWeek < 0) {
+    day = Math.round(dayOfTheWeek) + 7;
+  } else {
+    day = Math.trunc(dayOfTheWeek);
+  }
+  if (year < 1920 || (year > 1920 && year < 1979)) {
+    day = day - 1;
+  }
+  if (year >= 1980 && year < 2000) {
+    day = day - 1;
+  }
+  if (year === 1979) {
+    day = day + 6;
+  }
+  if (year === 1990) {
+    day = day + 7;
+  }
+  var akanName;
+  var dayName;
+  if (gender === "male") {
+    akanName = maleNames[day];
+    dayName = weekDays[day];
+  } else {
+    akanName = femaleNames[day];
+    dayName = weekDays[day];
+  }
+  document.getElementById("output").innerHTML =
+    "Your akhan name is: " + akanName + " meaning you were born on " + dayName;
 }

@@ -3,13 +3,11 @@
 .body {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
-  margin: 0;
-  padding: 0;
 }
 
 .background {
   background: url(../images/3.jpg) bottom center / cover no-repeat;
-  min-height: 950px;
+  min-height: 920px;
   width: 100%;
   margin: 0;
 }
@@ -18,9 +16,10 @@
   text-align: center;
   color: #fff;
   justify-content: center;
-  background-color: rgba(248, 172, 121, 0.3);
-  padding-left: 10%;
-  padding-right: 10%;
+}
+
+.flex container {
+  margin: 0;
 }
 
 .header {
@@ -41,8 +40,25 @@
   text-align: center;
   color: #fff;
   justify-content: center;
-  background-color: rgba(248, 172, 121, 0.3);
+  background-color: rgba(253, 252, 251, 0.3);
   padding-left: 10%;
   padding-right: 10%;
+}
 
+.page-footer {
+  margin: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.card {
+  justify-content: center;
+  background-color: rgba(248, 172, 121, 0.3);
+  text-align: center;
+  flex-direction: ro;
+}
+  
+.form {
+  display: flexbox;
+  margin-top: 30px;
 }
