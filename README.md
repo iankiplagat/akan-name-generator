@@ -14,11 +14,11 @@ The Akans are a meta-ethnicity who primarily live in Ghana and Ivory Coast. They
 
 ## Setup/Installation Requirements
 
-- To view the site, open the Github Pages link provided below on the README, or the netlify link of the published website provided in the about section. Here is a run through of how to set up the application
+To view the site, open the Github Pages link provided below on the README, or the netlify link of the published website provided in the about section. Here is a run through of how to set up the application
 
-Step 1 : Clone this repository using git clone https://github.com/kasparov-creat/akan-name-generator.git, or downloading a ZIP file of the code.
-Step 2 : The repository, if downloaded as a .zip file will need to be extracted o your preferred location and opened
-Step 3 : Open the index.html file to view the application on your preferred web browser.
+- Step 1 : Clone this repository using git clone https://github.com/kasparov-creat/akan-name-generator.git, or downloading a ZIP file of the code.
+- Step 2 : The repository, if downloaded as a .zip file will need to be extracted o your preferred location and opened
+- Step 3 : Open the index.html file to view the application on your preferred web browser.
 
 ## Known Bugs
 
@@ -26,16 +26,16 @@ No known bugs
 
 ## Technologies Used
 
-HTML
-CSS
-Javascript
+- HTML
+- CSS
+- Javascript
 
 ## Support and contact details
 
 Please feel free to contact me incase you run into any issues or have questions, ideas or concerns. You can contact me or make a contribution to the code. Please find my contact information listed below:
 
-. Email: ianjkiplagat@gmail.com
-. Telephone: +254742579020
+- . Email: ianjkiplagat@gmail.com
+- . Telephone: +254742579020
 
 ### License
 
