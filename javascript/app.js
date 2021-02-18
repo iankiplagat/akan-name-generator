@@ -3,7 +3,7 @@ function akan() {
   var gender = document.getElementById("gender").value;
   console.log(birthDate);
   if (!birthDate) {
-    alert("You entered an invalid date");
+    alert("You entered an invalid date. Please enter a valid one.");
   }
 
   var birthMonth;
@@ -14,7 +14,7 @@ function akan() {
   birthDay = parseInt(birthDate.slice(8, 10));
   year = parseInt(birthDate.slice(0, 4));
   if (birthDay <= 0 || birthDay > 31 || birthMonth <= 0 || birthMonth > 12) {
-    alert("You entered an invalid date");
+    alert("You entered an invalid date. Please enter a valid one.");
   }
   var weekDays;
   var maleNames;

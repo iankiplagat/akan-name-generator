@@ -1,25 +1,47 @@
-# {Application Name}
-#### {Brief description of application}, {Date of current version}
-#### By **{List of contributors}**
-## Description
-{This is a detailed description of your application, including its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }
-## Setup/Installation Requirements
-* This is a great place
-* to list setup instructions
-* in a simple
-* easy-to-understand
-* format
-{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? Do I need to install any dependencies? How should I set up my databases? Is there other code this app depends on?}
-## Known Bugs
-{Are there issues that have not yet been resolved that you want to let users know you know? Outline any issues that would impact use of your application. Share any workarounds that are in place. }
-## Technologies Used
-{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}
-## Support and contact details
-{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}
-### License
-*MIT License
+# Akan Names Generator
 
-Copyright (c) [year] [fullname]
+# Version
+
+Akan-names-generator V1.0
+
+#### A simple site that takes a user's name, gender, and date of birth, then generates there Akan name , February 18,2020.
+
+#### By **Ian Kiplagat**
+
+## Description
+
+The Akans are a meta-ethnicity who primarily live in Ghana and Ivory Coast. They have a fairly unique naming system, which is based on the day in the week a child is born, and on the gender of the child. Children are given their first name as a 'day name' which corresponds to the day in the week they were born. This website takes a user's birthday on the form provided and calculates the day of the week they were born and then depending on their gender outputs their Akan Name.
+
+## Setup/Installation Requirements
+
+- To view the site, open the Github Pages link provided below on the README, or the netlify link of the published website provided in the about section. Here is a run through of how to set up the application
+
+Step 1 : Clone this repository using git clone https://github.com/kasparov-creat/akan-name-generator.git, or downloading a ZIP file of the code.
+Step 2 : The repository, if downloaded as a .zip file will need to be extracted o your preferred location and opened
+Step 3 : Open the index.html file to view the application on your preferred web browser.
+
+## Known Bugs
+
+No known bugs
+
+## Technologies Used
+
+HTML
+CSS
+Javascript
+
+## Support and contact details
+
+Please feel free to contact me incase you run into any issues or have questions, ideas or concerns. You can contact me or make a contribution to the code. Please find my contact information listed below:
+
+. Email: ianjkiplagat@gmail.com
+. Telephone: +254742579020
+
+### License
+
+\*MIT License
+
+Copyright (c) 2021 Ian Kiplagat
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -37,6 +59,5 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.*
-Copyright (c) {year} **{List of contributors or company name}**
-  
+SOFTWARE.\*
+Copyright (c) 2021 **Ian Kiplagat**
