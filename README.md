@@ -12,6 +12,75 @@ Akan-names-generator V1.0
 
 The Akans are a meta-ethnicity who primarily live in Ghana and Ivory Coast. They have a fairly unique naming system, which is based on the day in the week a child is born, and on the gender of the child. Children are given their first name as a 'day name' which corresponds to the day in the week they were born. This website takes a user's birthday on the form provided and calculates the day of the week they were born and then depending on their gender outputs their Akan Name.
 
+## BDD
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+border: 1px solid #dddddd;
+text-align: left;
+padding: 8px;
+}
+
+tr:nth-child(even) {
+background-color: #dddddd;
+}
+</style>
+
+</head>
+<body>
+
+<h2>Behaviour-Driven Development</h2>
+
+<table>
+  <tr>
+    <th>Our program should handle:</th>
+    <th>Input Example:</th>
+    <th>Output Example:</th>
+  </tr>
+  <tr>
+    <td>an empty or invalid date</td>
+    <td>wrong date format</td>
+    <td>You entered an invalid date. Please enter a valid one</td>
+  </tr>
+  <tr>
+    <td>a date that is less than or equal to zero</td>
+    <td>0</td>
+    <td>You entered an invalid date. Please enter a valid one</td>
+  </tr>
+  <tr>
+    <td>a date that is greater than 31</td>
+    <td>33</td>
+    <td>You entered an invalid date. Please enter a valid one</td>
+  </tr>
+  <tr>
+    <td>a birth month that is less than or equal to zero</td>
+    <td>-1</td>
+    <td>You entered an invalid date. Please enter a valid one</td>
+  </tr>
+  <tr>
+    <td>a birth month that is greater than 12</td>
+    <td>13</td>
+    <td>You entered an invalid date. Please enter a valid one</td>
+  </tr>
+  <tr>
+    <td>It calculates the day of the week you were born and gives you your akan name based on the day of the week you were born</td>
+    <td>01/01/2000</td>
+    <td>your akan name is Kofi which means ou were born on Friday</td>
+  </tr>
+</table>
+
+</body>
+</html>
+
 ## Setup/Installation Requirements
 
 To view the site, open the Github Pages link provided below on the README, or the netlify link of the published website provided in the about section. Here is a run through of how to set up the application
