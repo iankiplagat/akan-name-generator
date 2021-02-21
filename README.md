@@ -17,24 +17,6 @@ The Akans are a meta-ethnicity who primarily live in Ghana and Ivory Coast. They
 <!DOCTYPE html>
 <html>
 <head>
-<style>
-table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-}
-
-td, th {
-border: 1px solid #dddddd;
-text-align: left;
-padding: 8px;
-}
-
-tr:nth-child(even) {
-background-color: #dddddd;
-}
-</style>
-
 </head>
 <body>
 
@@ -74,12 +56,13 @@ background-color: #dddddd;
   <tr>
     <td>It calculates the day of the week you were born and gives you your akan name based on the day of the week you were born</td>
     <td>01/01/2000</td>
-    <td>your akan name is Kofi which means ou were born on Friday</td>
+    <td>your akan name is Kofi which means you were born on Friday</td>
   </tr>
 </table>
 
 </body>
 </html>
+
 
 ## Setup/Installation Requirements
 
